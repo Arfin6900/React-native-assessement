@@ -129,6 +129,7 @@ const InputComp = ({GoToSpecificLocation}) => {
                   : places
                 : results.slice(0, 6)
             }
+            
             renderItem={({item, index}) => (
               <TouchableOpacity
                 style={styles.resultDiv}
